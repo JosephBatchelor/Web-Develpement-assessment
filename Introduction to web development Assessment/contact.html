@@ -1,0 +1,375 @@
+<!doctype html><!--EXPLAIN-->
+
+<html lang="en"><!--EXPLAIN-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!--EXPLAIN-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href= "css/normalize.css" rel="stylesheet"/><!--EXPLAIN-->
+<link href= "css/stylesheet.css" rel="stylesheet"/><!--EXPLAIN-->
+
+<title>Contact me</title><!--EXPLAIN-->
+
+
+</head>
+<body class="bodyForm">
+    
+<div id="wrapper3">
+
+<div class="maintitle-tutorial"><!--EXPLAIN-->
+       <a id= "Homearea"></a>
+       <a id= "topofpage"></a>
+      
+        <h1><!--EXPLAIN-->
+            Contact page
+        </h1>
+       </div>
+       
+
+<div class="links3">
+<div id="navbar3">
+<div class="navbar">
+<a href="#Homearea"><strong>Home area</strong></a>
+</div>
+<div class="navbar">  
+<div class="dropdown">
+
+</div>
+<div class="navbar">  
+<div class="dropdown">
+<button class="dropbtn"><strong>WebPages</strong>
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-content">
+<a href="index.html">Learning journal</a><!--EXPLAIN-->
+<a href="tutorial.html">Tutorial page</a>
+</div>
+</div>
+</div>
+</div>
+ </div>
+</div>
+
+
+
+<div class = "form-intro">
+    <h4>Introduction</h4>
+<P>    
+This webpage is designed to allow users to communicate their thoughts and concerns with the creator or admin.
+<br/><br/>
+Down below there are two ways users are able to communicate their views and comments. 
+<br/><br/>
+The two areas that users can do this is the contact form and review form. So please write a review and leave any queries if you have any to share.
+</P>
+</div>
+
+
+<div class = "form">
+     <h2 class="formcontactT">Contact form</h2>
+    
+        <div class="container">
+  <form action="/action_page.php">
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email address</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="Email address" placeholder="exsample@email.com">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        
+         <label for="phone">Mobile number</label>
+         
+      </div>
+      <div class="col-75">
+        <input type="tel" id="phone" name="Phone number" placeholder="+44...">
+      </div>
+    </div>
+    
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+            
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="USA">USA</option>
+          <option value="United Knigdom">United Knigdom</option>
+          <option value="China">China</option>
+          <option value="Africa">Africa</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+    
+</div>
+ 
+
+
+ <div class = "right-side">
+     <h3>Location</h3>
+     
+    <figure>
+        <img class="imageform" src=" images/map.jpg " alt="Doctype visual">
+    </figure>
+    
+        <button class="open-button" onclick="openForm()">Open to sign in</button>
+
+<div class="form-popup" id="myForm">
+  <form  class="form-container">
+    <h6>Login</h6>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label id="psw"><b>Password</b></label>
+    
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+    
+</div>
+
+
+
+
+
+<div class = "webpage-review">
+    <h2 class="formcontactT">Write a review</h2>
+    <p>
+       Please fill in the form below and leave a review about your experience we would like to hear your feed back and don't forget to rate us out of five, thank you!
+    </p>
+    <div class="container">
+  <form action="/action_page.php">
+    
+  
+    
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="Email" name="EmailAddress" placeholder="exsample@email.com">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="password" id="password" name="Password" placeholder="Enter First name">
+        
+      </div>
+    </div>
+    
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Review</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subjects" name="Subject" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div>
+    
+    
+    <label class="container">One
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Two
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Three
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Four
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Five
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+    
+    
+    
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class = "socialmedia">
+    <h4 class="formcontactT">Social media</h4>
+    <P>
+        Link us to your social media pages and share us with your friends!
+    </P>
+    <div class="media">
+        <a href="#" class="fb btn1">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+         
+        <a href="#" class="twitter btn1">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        
+        <a href="#" class="google btn1"><i class="fa fa-google fa-fw">
+          </i> Login with Google+   
+        </a>
+      </div>
+    
+</div>
+
+
+ <div class = "Sign-up-side">
+    <h4 class="formcontactT">Sign-up form</h4>
+
+
+
+<button class="Signupbtn" onclick="document.getElementById('id01').style.display='block'">Open to sign up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    
+    
+    <div class="container">
+      
+      <h5>Sign Up</h5>
+      <p class = "sign-in-text">Please fill in this form to create an account.
+      </p>
+      
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      
+      <label id="Fname"><b>First name</b></label>
+      
+      <input type="text" placeholder="Firstname" name="Sname" required>
+      
+      <label id="Sname"><b>surname</b></label>
+      
+      <input type="text" placeholder="surname" name="Fname" required>
+      
+      <label id="tele"><b>Telephone number</b></label>
+      
+      <input type="tel" placeholder="Telephone number" name="+44...." required>
+
+      <label id="psw1"><b>Password</b></label>
+      
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label id="psw-repeat"><b>Repeat Password</b></label>
+      
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+    
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+<P class ="Sign-up-lowertext">
+    Click the button above to sign up and become a member today! 
+</P>
+</div>
+ 
+<div class = "forgotten">
+    <div class=forgotbutton>
+      <a href="#" style="color:white" class="btn2">Forgot password?</a>
+    </div>
+  </div>
+</div>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <div class = "contact-footer">
+    
+        <small>Copyright © 2020 University of Brighton. The University of Brighton is not responsible for the content of external sites.
+        <a href="#topofpage"><strong>Back to top</strong></a></small>
+    
+</div>   
+
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+</script>
+
+</body>
+</html>
